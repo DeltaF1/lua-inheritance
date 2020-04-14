@@ -50,6 +50,7 @@ local function inherits(parent, child)
   })
 end
 
+-- An example Class system 
 local function Class(tbl, ancestors)
   tbl = tbl or {}
   ancestors = ancestors or {}
